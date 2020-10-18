@@ -1,3 +1,8 @@
+:root{
+    --primary-font-color: #000000;
+    --secundary-font-color: #5f6368;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,3 +17,49 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
 }
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 30px;
+}
+
+.header-nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-nav__list li{
+    list-style: none;
+    padding: 0px 15px 0px 0px;
+}
+
+.header-nav__list li a{
+   text-decoration: none;
+   color: var(--primary-font-color);
+}
+
+.header-nav__list li a:hover{
+    text-decoration: underline;
+    color: var(--secundary-font-color);
+ }
+
+.header-nav__icons img{
+    width: 20px;
+    height: 20px;
+}
+
+.header-nav__user img{
+    width: 30px;
+    height: 30px;
+}
+
