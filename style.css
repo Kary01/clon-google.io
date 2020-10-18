@@ -1,6 +1,7 @@
 :root{
     --primary-font-color: #000000;
     --secundary-font-color: #5f6368;
+    --background-color: #dfe1e5;
 }
 
 *{
@@ -75,7 +76,7 @@ main{
 .main-section__logo div{
     display: flex;
     justify-content: center;
-    height: 768px;
+    height: 233px;
     margin: 47px 0px 0px;
 }
 
@@ -95,7 +96,7 @@ main{
     justify-content: space-between;
     align-content: center;
     width: 586px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid var(--background-color);
     border-radius: 24px;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
@@ -130,7 +131,7 @@ main{
 }
 
 .main-section__button button:hover{
-    border: 1px solid #dfe1e5;
+    border: 1px solid var(--background-color);
 }
 
 .main-section__button p{
@@ -140,4 +141,55 @@ main{
 
 .main-section__button p a{
     padding: 0px 3px;
+    text-decoration: none;
+}
+
+footer{
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.footer__location{
+    color: var(--secundary-font-color);
+    padding: 20px 10px 20px 20px;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--secundary-font-color);
+}
+
+
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--background-color);
+}
+
+.footer-nav__listFirst, .footer-nav__listEnd{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.footer-nav__listFirst li{
+    list-style: none;
+    padding: 0px 15px 0px 0px;
+}
+
+.footer-nav__listEnd li{
+    list-style: none;
+    padding: 0px 15px 0px 0px;
+}
+
+.footer-nav__listFirst li a{
+    text-decoration: none;
+    color: var(--secundary-font-color);
+}
+
+.footer-nav__listEnd li a{
+    text-decoration: none;
+    color: var(--secundary-font-color);
 }
