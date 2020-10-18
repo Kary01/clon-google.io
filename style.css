@@ -15,7 +15,7 @@ html{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 header{
@@ -28,14 +28,15 @@ header{
 .header-nav{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    padding: 30px;
+    align-items: center;
+    padding: 20px;
 }
 
 .header-nav__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .header-nav__list li{
@@ -63,3 +64,28 @@ header{
     height: 30px;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.main-section__logo div{
+    display: flex;
+    justify-content: center;
+    height: 768px;
+    margin: 47px 0px 0px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img{
+    padding-top: 109px;
+}
