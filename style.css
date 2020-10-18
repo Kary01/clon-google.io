@@ -112,3 +112,32 @@ main{
     border: none;
     width: 487px;
 }
+
+.main-section__button{
+    display: block;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.main-section__button button{
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 34px;    
+    line-height: 27px;
+    min-width: 54px;
+    border: none;
+    color: var(--secundary-font-color);
+}
+
+.main-section__button button:hover{
+    border: 1px solid #dfe1e5;
+}
+
+.main-section__button p{
+    padding-top: 18px;
+    font-size: 1.3rem;
+}
+
+.main-section__button p a{
+    padding: 0px 3px;
+}
