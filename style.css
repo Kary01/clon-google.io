@@ -69,17 +69,39 @@ img{
 }
 
 main{
-    padding-top: 109px;
+    padding-top: 100px;
     text-align: center;
 }
 
 main .main-section{
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 main .main-section img{
     width: 272px;
     height: 92px;
+}
+
+main .search-section{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.search-section .search-section__input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section .search-section__input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
