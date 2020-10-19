@@ -22,12 +22,32 @@ body{
     height: 100vh;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header{
     width: 100%;
     min-height: 60px;
+    padding: 30px;
 }
 
-.header-nav{
+header .header-nav{
     display: flex;
     justify-content: flex-end;
+}
+
+header .header-nav .header-nav__list-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 250px;
+    height: auto;
+}
+
+.header-nav .header-nav__list-right a{
+    margin-right: 10px;
+    color: var(--primary-font-color);
 }
