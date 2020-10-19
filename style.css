@@ -104,4 +104,27 @@ main .search-section{
     height: 40px;
     border: none;
     outline: none;
+    padding: 12px;
+}
+
+.search-section .search-section__input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search-section .search-section__input-container .search-icon img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.search-section .search-section__input-container .micro-icon img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
 }
