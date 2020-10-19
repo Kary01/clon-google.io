@@ -30,12 +30,13 @@ a{
 header{
     width: 100%;
     min-height: 60px;
-    padding: 30px;
 }
 
 header .header-nav{
     display: flex;
     justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 30px;
 }
 
 header .header-nav .header-nav__list-right{
@@ -63,6 +64,22 @@ header .header-nav .header-nav__list-right{
 .header-nav .header-nav__list-right .user-image
 img{
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
+}
+
+main{
+    padding-top: 109px;
+    text-align: center;
+}
+
+main .main-section{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-section img{
+    width: 272px;
+    height: 92px;
 }
